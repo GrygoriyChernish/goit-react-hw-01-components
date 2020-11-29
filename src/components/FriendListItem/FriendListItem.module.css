@@ -1,0 +1,22 @@
+.status {
+  display: block;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.isOnline {
+  composes: status;
+  background-color: #5ca95e;
+}
+
+.isOffline {
+  composes: status;
+  background-color: #fa554c;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}

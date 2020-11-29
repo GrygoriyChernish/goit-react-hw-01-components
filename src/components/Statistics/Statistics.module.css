@@ -1,0 +1,16 @@
+.stats {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+}
+
+.statList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
